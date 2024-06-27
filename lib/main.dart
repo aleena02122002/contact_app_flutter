@@ -1,3 +1,5 @@
+import 'package:contact_app/extra/Home.dart';
+import 'package:contact_app/view/contacts.dart';
 import 'package:contact_app/view/edit_contact.dart';
 import 'package:flutter/material.dart';
 
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: EditContact(),
+      home: HomeView(),
     );
   }
 }
